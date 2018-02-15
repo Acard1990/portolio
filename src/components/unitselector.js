@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/unitselector.css';
-import headshot from './headshot.jpg';
+// import headshot from './headshot.jpg';
 
 class Unit extends React.Component {
   render() {
