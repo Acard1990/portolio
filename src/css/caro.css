@@ -4,29 +4,6 @@
   color:white;
 }
 
-a {
-  color: white;
-}
-/* unvisited link */
-a:link {
-  color: white;
-}
-
-/* visited link */
-a:visited {
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: black;
-}
-
-/* selected link */
-a:active {
-  color: white;
-}
-
 .btn {
   padding: 2%;
   width: 20%;

@@ -3,3 +3,52 @@ img {
   width: 240px;
   margin-top: 1%;
 }
+
+.bar {
+  background: black;
+  color: white;
+  width: 10rem;
+  align-content: center;
+  margin-left: 80%;
+  margin-top: -535px;
+  padding-left: 0px;
+  text-align: center;
+  transform: rotate(23deg) skew(0,3deg);
+  box-shadow: 1em 1em 2rem #008b8b;
+}
+
+.chunk {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  padding-left: 0px;
+  background: #222;
+}
+
+.chunk:hover {
+  transform: translate(5%, -10%);
+  transition: all .3s linear;
+  color: red;
+}
+
+a {
+  color: white;
+}
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
