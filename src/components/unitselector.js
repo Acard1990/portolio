@@ -9,10 +9,13 @@ class Unit extends React.Component {
         <img src={require("./headshot.jpg")} />
         <div className="summary"> 
         <a>
-          Hi, Welcome to my Portfolio. Im an Experienced Broadcast professional with a demonstrated history of working in the broadcast 
-          media industry. Skilled in Broadcast Operations, Broadcast Systems Engineering and 
-          a growing passion for all things coding and development. Recent graduate from 
-          Georgia Tech's Full Stack Web Development program. Please have a look around, and checkout some of my previous work. 
+          Hi, Welcome to my Portfolio. Im an Experienced Broadcast professional with a demonstrated history of 
+          working in the broadcast media industry.Skilled in Broadcast Operations, Broadcast <br /> 
+          Systems Engineering and a growing passion for all things coding and <br />
+          development. Recent graduate from Georgia Tech's Full Stack <br />
+          Web Development program. Please have a look <br />
+          around, and checkout some of <br />
+          my previous work. 
         </a>
       </div>
         {/* <a href="#" className="accordion-toggle">Welcome</a>
