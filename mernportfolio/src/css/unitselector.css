@@ -1,0 +1,101 @@
+/* scrolling text 
+p{
+    color: lime; 
+    font-family: "Courier";
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end);  
+}
+
+p:nth-child(2){
+    animation: type2 8s steps(60, end);
+  }
+
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+*/
+/*======================================================================================
+body {
+  font-family: helvetica;
+  font-size: 18px;
+  text-align: center;
+}
+.accordion {
+  display: inline-block;
+  text-align: left;
+  margin: 1%;
+  width: 40%;
+  border-radius: 30px;
+}
+.accordion:hover .accordion-content {
+  max-height: 300px;
+}
+.accordion-content {
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -ms-transition: max-height 1s;
+  -o-transition: max-height 1s;
+  transition: max-height 1s;
+  background:rgba(255,255,255,0.5);
+  overflow: hidden;
+  max-height: 0;
+  border-radius: 3px;
+}
+.accordion-inner {
+  padding: 0 15px;
+}
+.accordion-toggle {
+  -webkit-transition: background .1s linear;
+  -moz-transition: background .1s linear;
+  -ms-transition: background .1s linear;
+  -o-transition: background .1s linear;
+  transition: background .1s linear;
+  background:rgba(255,255,255,0.5);
+  border-radius: 3px;
+  color: black;
+  display: block;
+  font-size: 30px;
+  margin: 0 0 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+.accordion-toggle:hover {
+  background:rgba(255,255,255,0.5);
+}
+======================================================================================*/
+img {
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 240px;
+  margin-right: 0px;
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.summary {
+  color: white;
+  width: 60%;
+  margin-left: 0px;
+  float: right;
+  margin-right: 12%;
+  margin-top: 2%;
+  display: flex-wrap;
+}
+
+
