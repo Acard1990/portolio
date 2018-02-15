@@ -5,7 +5,7 @@ img {
 }
 
 .bar {
-  background: black;
+  background: #C44D33;
   color: white;
   width: 10rem;
   align-content: center;
@@ -27,7 +27,7 @@ img {
 .chunk:hover {
   transform: translate(5%, -10%);
   transition: all .3s linear;
-  color: red;
+  color: #C44D33;
 }
 
 a {
@@ -45,10 +45,22 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: red;
+  color: #C44D33;
 }
 
 /* selected link */
 a:active {
   color: white;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .bar {
+    transform: rotate(0deg) skew(0,0deg);
+    float: left;
+    margin-top: 25px;
+    margin-left: 23%;
+    width: 15rem;
+    box-shadow: none;
+  }
 }

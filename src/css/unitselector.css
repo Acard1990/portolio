@@ -97,4 +97,18 @@ img {
   display: flex-wrap;
 }
 
+@media only screen and (max-width: 500px) {
+  body {
+      background-color: #9CE462;
+  }
+  img {
+    margin-left: 23%;
+  }
+  .summary {
+    float: left;
+    width: 300px;
+    margin-left: 22.5%;
+  }
+}
+
 
