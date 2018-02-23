@@ -5,10 +5,9 @@
     width: 100%;
     text-align: center;
     margin-top: 0;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
     padding: 1%;
     border-bottom: double;
-    
+    font-family: 'Advent Pro', sans-serif;
 }
 
 .cardinali {
