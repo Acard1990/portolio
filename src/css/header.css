@@ -10,24 +10,4 @@
     font-family: 'Advent Pro', sans-serif;
 }
 
-.cardinali {
-    background:rgba(255,255,255,0.5);
-    border-radius: 4px;
-    color: black;
-    height: 6%;
-    width: 60%;
-    text-align: center;
-    margin-left: 10%;
-    animation: 1.5s ease-out 0s 1 slideInFromLeft;
-    padding: 1%;
-}
-
-@keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-200%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
 
