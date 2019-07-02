@@ -11,8 +11,6 @@ class Header extends React.Component {
                                             Full Stack Web Developer<br/>
                                             &amp;<br/>
                                             Broadcast Systems Professional.</h3>
-            <div className="accordion"> 
-            </div>
             </div>
     )
   }
