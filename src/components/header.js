@@ -2,14 +2,19 @@ import React from 'react';
 import '../css/header.css';
 
 class Header extends React.Component {
+
   render() {
+
     return (
-        <nav className="">
-            <div className="">
-                <h1 className="amerigo">SCOTT&nbsp;CARDINALI</h1>
+            <div>
+                <h3 className="beginning">Welcome, my name is <span className="name">Scott Cardinali</span>. <br/>
+                                            Full Stack Web Developer<br/>
+                                            &amp;<br/>
+                                            Broadcast Systems Professional.</h3>
+            <div className="accordion"> 
             </div>
-        </nav>
-    );
+            </div>
+    )
   }
 }
 

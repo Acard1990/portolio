@@ -1,13 +1,12 @@
-.amerigo {
-    background:rgba(255,255,255,0.0);
-    color: black;
-    height: 6%;
-    width: 100%;
+
+.beginning {
     text-align: center;
-    margin-top: 0;
-    padding: 1%;
-    border-bottom: double;
-    font-family: 'Advent Pro', sans-serif;
+    background:#111;
+    color: #999;
+    padding-top: 10rem;
+    margin-top: .5rem;
 }
 
-
+.name {
+    color: coral;
+}
