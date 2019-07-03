@@ -1,12 +1,10 @@
 
 
 .container {
-  position: fixed;
-  height: 400px;
-  width: 200px;
-  /* left: 45%; */
-  margin-top: 20rem;
-  transform: translate(-50%, -50%);
+  float: center;
+  height: 300px;
+  width: 150px;
+  margin-top: 2rem;
 }
 
 .loader {
