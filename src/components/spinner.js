@@ -8,8 +8,6 @@ class Spinner extends React.Component {
     return (
       <div className="container">
         <div className="loader">
-        <div className="loader">
-        <div className="loader">
           <div className="loader">
             <div className="loader">
               <div className="loader">
@@ -37,6 +35,10 @@ class Spinner extends React.Component {
                                                           <div className="loader">
                                                             <div className="loader">
                                                               <div className="loader">
+                                                                <div className="loader">
+                                                                  <div className="loader">
+                                                                  </div>
+                                                                </div>
                                                               </div>
                                                             </div>
                                                           </div>
@@ -63,10 +65,8 @@ class Spinner extends React.Component {
                 </div>
               </div>
             </div>
+            </div>
           </div>
-        </div>
-        </div>
-        </div>
         </div>
     )
   }

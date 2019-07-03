@@ -1,5 +1,4 @@
 
-
 .container {
   float: center;
   height: 300px;
@@ -8,8 +7,8 @@
 }
 
 .loader {
-  height: 95%;
-  width: 95%;
+  height: 96%;
+  width: 94%;
   margin: 2.5%;
   border-top: 3px solid #999;
   border-bottom: 3px solid coral;
